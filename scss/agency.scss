@@ -738,16 +738,22 @@ body {
     border-color: grey;
 }
 
+img.about-img{
+        width:300px;
+        height: 300px;
+    }
+
 .about-img{
     padding-bottom: 30px;
     padding-left: 125px;
     padding-top: 40px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
 }
+
 
 p.about{
     padding-top: 40px;
-    font-size: 17px; 
+    font-size: 14px; 
 }
 
 h4 + p{
