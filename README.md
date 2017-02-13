@@ -1,1 +1,1 @@
-# RicardoG2016.github.io
+To view my personal site visit www.ricardogomez.me
