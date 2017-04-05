@@ -1,1 +1,0 @@
-To view my personal site visit www.ricardogomez.me
