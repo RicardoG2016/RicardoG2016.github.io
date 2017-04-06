@@ -23,7 +23,7 @@
   
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
   <link href="favicon.ico" rel="shortcut icon">
-  
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"> 
   
@@ -59,12 +59,13 @@
           <h1>Ricardo Gomez</h1>
         </div>
         <div class="intro-detail">
-          <h2><span class="rotating hero-detail">Web Developer, Team Player, Foodie, Coffee Fanatic, Comic Nerd, Houston Rocket's Fan, Urban Explorer, Runner, Chef</span></h2>
+          <h2> <span class="rotating hero-detail">Web Developer, Team Player, Foodie, Coffee Fanatic, Comic Nerd, Houston Rocket's Fan, Urban Explorer, Runner, Chef</span></h2>
         </div>
         <div class="actions">
           <a href="https://www.linkedin.com/in/ricardog2016/" class="btn-get-started">Linkedin</a>
           <a href="https://github.com/RicardoG2016" class="btn-get-started">Github</a>
           <a href="#portfolio" class="btn-get-started">Projects</a>
+          <a class="SendEmail btn-get-started">Contact</a>
         </div>
         </div>
       </div>
@@ -83,11 +84,11 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Projects</a></li>
-          <!-- <li><a href="resume.pdf" target="_blank">Resume</a></li> -->
+          <li><a href="#about">About</a></li>
+          <li><a href="resume.pdf" target="_blank">Resume</a></li>
           <li><a href="#team">References</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="SendEmail">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -108,7 +109,7 @@
       
       <div class="p-row">
         <div class="col-md-7 col-sm-12 wow fadeInUp">
-          <a class="portfolio-item" style="background-image: url(img/peribit.png);" href="">
+          <a class="portfolio-item" style="background-image: url(img/peribit.png);" href="http://www.peribit.io/users/sign_up">
           </a>
         </div>
       
@@ -137,7 +138,7 @@
 
       <div class="p-row">
         <div class="col-md-6 wow fadeInUp">
-           <a class="iphone-img" style="background-image: url(img/iphone.png);" href="">
+           <a class="iphone-img" style="background-image: url(img/iphone.png);" href="https://spoti-find.firebaseapp.com/">
            </a>
         </div>
       </div>
@@ -147,7 +148,7 @@
       <div class=" col-md-6 wow fadeInUp">
         <div class="p-row">
           <div class="col-md-6 wow fadeInUp">
-           <a class="iphone-img" style="background-image: url(img/2.png);" href="">
+           <a class="iphone-img" style="background-image: url(img/2.png);" href="https://spoti-find.firebaseapp.com/">
            </a>
           </div>
         </div>
@@ -165,16 +166,16 @@
 <!---third row -->
       <div class="ipad p-row">
         <div class="col-md-6 col-sm-12 ipad wow fadeInUp">
-          <a class="portfolio-item" style="background-image: url(img/ipad.png);" href="">
+          <a class="portfolio-item ipad-img" style="background-image: url(img/ipad.png);" href="https://github.com/RicardoG2016/JQuery_ConnectFour">
           </a>
         </div>
       
         <div class="col-md-6 col-sm-12 wow fadeInUp">
           <div class="details">
-            <h4 class="ipad-title">Connect4 and TicTacToe</h4>
+            <h4 class="ipad-title">Connect4 & TicTacToe</h4>
             <p>The games were built with HTML5, CSS3, Javascript and Jquery. All hosted on Google Firebase.</p>
-            <button class="p-button btn btn-default"><a href="http://www.peribit.io/users/sign_up" target="_blank" >Try it Out!</a></button>
-            <button class="p-button btn btn-default"><a href="https://github.com/RicardoG2016/peribit" target="_blank" >Github</a></button>
+            <button class="p-button btn btn-default"><a href="https://github.com/RicardoG2016/JQuery_ConnectFour" target="_blank" >Try it Out!</a></button>
+            <button class="p-button btn btn-default"><a href="https://github.com/RicardoG2016/JQuery_ConnectFour" target="_blank" >Github</a></button>
           </div>
         </div>
       </div>
@@ -232,8 +233,10 @@
             I've always had a passion for tech, software and solving existing problems. My business experience during mergers, acquisitions and data migrations at Lin Digital prepared me with the uncertainties faced by todays technology companies while my education at Dev Bootcamp has provided a strong foundation of web development principles that I've built on.
           </p>
           <p class="about-text">
-            I believe that as a developer our ability to solve the world’s problems are only limited by our imagination and willingness to solve them. Feel free to contact me if you want to make an idea come to life, solve an existing problem or want to work on a project.
+            I believe that as a developer our ability to solve the world’s problems are only limited by our imagination and willingness to solve them. Feel free to contact me if you are looking for dev talent or want to work on a project together to solve an existing problem.
           </p>
+          <button class="p-button btn btn-default"><a href="resume.pdf" target="_blank">Resume</a></button>
+          <button class="p-button btn btn-default"><a href="https://github.com/RicardoG2016" target="_blank" >Github</a></button>
         </div>
       </div>
     </div>
@@ -324,7 +327,7 @@
                   <div class="validation"></div>
                 </div>
                 <div id="success"> </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center SendEmail"><button action="./php/contact_me.php" type="submit">Send Message</button></div>
             </form>
           </div>
         </div>
@@ -383,12 +386,10 @@
   <script src="lib/easing/easing.js"></script>
   
   <!-- Template Specisifc Custom Javascript File -->
-  <script src="js/custom.js"></script>
-  
-  <script src="contactform/contactform.js"></script>
+  <script src="./js/custom.js"></script>
 
-  <script src="./js/jqBootstrapValidation.js"></script>
-  <script src="./js/contact_me.js"></script>
+  <!-- <script src="./js/jqBootstrapValidation.js"></script> -->
+  <!-- <script src="./js/contact_me.js"></script> -->
   
     
 </body>

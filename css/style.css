@@ -2,6 +2,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #26322d;
@@ -33,6 +34,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   color: #26322d;
   font-size: 30px;
+}
+
+/* Prelaoder */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
 /* Back to top button */
@@ -641,6 +654,10 @@ background-image{
     padding-top: 20px;
   }
 
+  a.ipad-img{
+    margin-bottom: 25px;
+  }
+
   h3.project-title.section-title{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -702,7 +719,8 @@ background-image{
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 80px 0 60px 0;
+  padding: 0px 0 60px 0;
+  margin-top: 80px;
 }
 
 #team .member {
@@ -829,6 +847,10 @@ button:hover{
 li a {
     display: inline;
     float: right;
+}
+
+section#portfolio{
+  padding-bottom: 0px;
 }
 
 @media (max-width: 992px) {
