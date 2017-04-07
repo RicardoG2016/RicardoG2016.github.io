@@ -1,7 +1,5 @@
 jQuery(document).ready(function( $ ) {
-  // Preloader
-  // $(window).load(function(){
-    console.log('pass');    
+  // Preloader   
     $('#preloader').delay(700).fadeOut('slow',function(){$(this).remove();});
   // });
 
