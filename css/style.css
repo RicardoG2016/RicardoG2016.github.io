@@ -873,11 +873,11 @@ background-image{
   background: #25d8fc;
 }
 
-button:hover{
+/*button:hover{
   -webkit-box-shadow: 0px 9px 28px -1px rgba(201,201,201,1);
   -moz-box-shadow: 0px 9px 28px -1px rgba(201,201,201,1);
   box-shadow: 0px 9px 28px -1px rgba(201,201,201,1);
-}
+}*/
 
 li a {
     display: inline;
