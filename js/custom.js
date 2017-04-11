@@ -10,6 +10,7 @@ jQuery(document).ready(function( $ ) {
     speed: 3000
   });
   
+  // email sends to me
   $(function () {
       $('.SendEmail').click(function (event) {
         var email = 'gomez.r@live.com';
