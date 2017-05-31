@@ -129,12 +129,15 @@
   }
 }
 
+#contact {
+  margin-top: 150px;
+}
 
-@media (max-width: 588px) {
+/*@media (max-width: 588px) {
   section#team{
     margin-top: 170px;
   }
-}
+}*/
 
 /*-------------460-------------*/
 
@@ -153,6 +156,7 @@
   .actions a{
     text-align: center;
   }
+
 }
 
 
@@ -169,6 +173,7 @@
   }
 
   #contact{
+    margin-top: 350px;
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -250,8 +255,8 @@
   section#about{
     margin-top: 150px;
   }
-  section#team{
-  margin-top: 438px;
+  section#contact{
+  margin-top: 390px;
   }
 
   .p-row.fourth{
